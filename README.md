@@ -50,4 +50,5 @@ Contributions are welcome! Please create a pull request with your changes.
 
 ## License
 
-Creative Commons - CC BY 4.0
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
