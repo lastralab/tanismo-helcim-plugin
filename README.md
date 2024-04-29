@@ -50,4 +50,4 @@ Contributions are welcome! Please create a pull request with your changes.
 
 ## License
 
-Creative Commons Zero v1.0 Universal
+Creative Commons - CC BY 4.0
