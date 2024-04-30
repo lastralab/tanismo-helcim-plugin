@@ -4,7 +4,7 @@ Redirect customers to the Helcim Payment Terminal.
 
 ## Description
 
-This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing customers to be redirected to the Helcim Payment Terminal for secure payment processing. This plugin will allow you to apply the 3% convenience fee on payments with credit card.
+This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing customers to be redirected to the Helcim Payment Terminal for secure payment processing. This plugin will allow you to apply the 3% convenience fee on payments with credit card (currently not supported by the [Helcim official plugin for WooCommerce](https://wordpress.org/plugins/helcim-commerce-for-woocommerce/)).
 
 ## Installation
 
