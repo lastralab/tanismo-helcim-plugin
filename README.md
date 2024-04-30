@@ -1,4 +1,4 @@
-# Tanismo Helcim Payment Gateway
+# Tanismo Helcim Payment Plugin
 
 Redirect customers to the Helcim Payment Terminal.
 
