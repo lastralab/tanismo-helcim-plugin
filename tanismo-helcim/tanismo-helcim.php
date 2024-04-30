@@ -103,8 +103,8 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
     add_action('plugins_loaded', 'helcim_init_gateway_class');
     // Add compatibility with WooCommerce's HPOS
     add_action('before_woocommerce_init', function() {
-        if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
-            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+        if (class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class)) {
+            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', __FILE__, true);
         }
     });
 } else {
