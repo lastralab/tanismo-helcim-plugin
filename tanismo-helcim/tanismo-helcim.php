@@ -107,7 +107,6 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
             \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
         }
     });
-    //allow_activating_plugins_with_incompatible_features();
 } else {
     deactivate_plugins(plugin_basename(__FILE__));
     add_action('admin_notices', 'tanismo_plugin_admin_notice');
