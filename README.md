@@ -1,6 +1,13 @@
-# Tanismo Helcim Payment Plugin
+# Tanismo Helcim Payment
 
-Redirect customers to the Helcim Payment Terminal.
+- Contributors: tanismo
+- Requires at least: 6.3
+- Tested up to: 6.4
+- Requires PHP: 7.4
+- Stable tag: 1.0.0
+- License: GPLv2 or later
+- License URI: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
+- Tags: helcim payment, 3% convenience fee, credit card payment, helcim payment page
 
 ## Description
 
@@ -23,7 +30,7 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 - Customize the payment gateway title and description.
 - Add instructions for customers.
 - Redirect customers to the Helcim Payment Terminal.
-- Apply a 3% convenience fee to orders.
+- Apply a 3% convenience fee to orders on Helcim Payment Page.
 
 ## Compatibility
 
@@ -38,17 +45,7 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 
 Yes, you can process refunds for orders paid with the Helcim Payment Gateway through the Helcim Platform.
 
-
 ## Changelog
 
 ### 1.0.0
 - Initial release.
-
-## Contributing
-
-Contributions are welcome! Please create a pull request with your changes.
-
-## License
-
-[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-
