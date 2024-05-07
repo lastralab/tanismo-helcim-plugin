@@ -15,7 +15,8 @@ class Helcim_Controller extends WP_REST_Controller
     {
         $this->namespace = 'helcim/v1';
         $this->rest_base = 'approved';
-        $this->terminalURL = explode('//', get_option('helcim_terminal_url'))[1];
+        $url = explode('//', get_option('helcim_terminal_url'));
+        $this->terminalURL = $url[1] ?? $url;
     }
 
     public function register_routes()
