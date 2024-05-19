@@ -22,7 +22,7 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 ## Configuration
 
 1. Enable the "Custom Helcim Payment Gateway" in WooCommerce settings.
-2. Add the landing pages in the Helcim Payment Page configuration: {yourURL}/wp-json/helcim/approved and {yourURL}/wp-json/helcim/cancelled do the users can be forwarded back to WordPress.
+2. Add the landing pages in the Helcim Payment Page configuration: {yourURL}/wp-json/helcim/v1/approved and {yourURL}/wp-json/helcim/v1/cancelled do the users can be forwarded back to WordPress.
 3. Set the "Terminal URL" provided by Helcim when creating a payment page.
 4. Enter the "Test Token" and "Token" for the Helcim Payment Page.
 
