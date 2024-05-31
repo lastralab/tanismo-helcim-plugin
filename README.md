@@ -50,3 +50,17 @@ Yes, you can process refunds for orders paid with the Helcim Payment Gateway thr
 
 ### 1.0.0
 - Initial release.
+
+## Screenshots ##
+Checkout
+![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/3a3c5fd4-f6b2-417c-93d9-f99de5d8189a)
+
+
+Helcim Payment Page
+![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/99ca9f74-cc83-4a70-ad22-df162eb871ff)
+![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/e0b121bf-b39f-4586-b016-e1833b625c53)
+
+Admin settings
+![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/daa8eabc-9d92-4a9f-abca-79d73b4da994)
+![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/30376194-27bb-40b3-b388-cafd440b129d)
+
