@@ -54,12 +54,19 @@ class Helcim_Cancellation extends WP_REST_Controller
     {
         $id = 0;
         foreach ($_COOKIE as $name => $value) {
+            $name = sanitize_text_field($name);
             if (strpos($name, 'wordpress_logged_in_') !== false) {
+                $value = sanitize_text_field($value);
+                $matches = explode('%', $value);
+                $match = isset($matches[0]) ? sanitize_text_field($matches[0]) : '';
+                $username = sanitize_user(explode('|', $match)[0]);
+                $user = get_user_by('login', $username);
+
                 $matches = explode('%', $value);
                 $match = $matches[0];
                 $username = explode('|', $match)[0];
                 $user = get_user_by('login', $username);
-                $id = wp_authenticate_spam_check($user) ? $user->ID : 0;
+                $id = ($user && wp_authenticate_spam_check($user)) ? absint($user->ID) : 0;
             }
         }
 

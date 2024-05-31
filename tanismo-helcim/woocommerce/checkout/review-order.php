@@ -106,7 +106,7 @@ defined( 'ABSPATH' ) || exit;
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_review_order_before_order_total' ); ?>
-
+        <?php // tanismo-helcim update starts ?>
 	    <tr class="order-fee">
             <th><?php esc_html_e( '3% Convenience Fee', 'woocommerce' ); ?></th>
             <td>
@@ -124,10 +124,11 @@ defined( 'ABSPATH' ) || exit;
             <?php $total = (preg_replace("/[^0-9.]/", "", WC()->cart->get_cart_contents_total()) + $fee); ?>
             <td>
                 <span class="woocommerce-Price-amount amount">
-                    <?= '$' . number_format((float) $total, 2, '.', '') // wc_cart_totals_order_total_html() ?>
+                    <?php echo '$' . number_format((float) $total, 2, '.', ''); ?>
                 </span>
             </td>
 		</tr>
+        <?php // tanismo-helcim update ends ?>
 		<?php do_action( 'woocommerce_review_order_after_order_total' ); ?>
 
 	</tfoot>

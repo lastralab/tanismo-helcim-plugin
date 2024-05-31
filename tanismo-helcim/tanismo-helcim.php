@@ -59,7 +59,7 @@ add_action('rest_api_init', array($helcim_cancellation, 'register_routes'));
 add_filter('woocommerce_payment_gateways', 'helcim_add_gateway_class');
 function helcim_add_gateway_class($gateways)
 {
-    $gateways[] = 'WC_Helcim_Gateway';
+    $gateways[] = 'Tanismo_Helcim_Gateway';
     return $gateways;
 }
 
@@ -103,8 +103,8 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
     add_action('plugins_loaded', 'helcim_init_gateway_class');
     // Add compatibility with WooCommerce's HPOS
     add_action('before_woocommerce_init', function() {
-        if (class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class)) {
-            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', __FILE__, true);
+        if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+            \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
         }
     });
 } else {
@@ -119,7 +119,7 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
  */
 function helcim_init_gateway_class()
 {
-    class WC_Helcim_Gateway extends WC_Payment_Gateway
+    class Tanismo_Helcim_Gateway extends WC_Payment_Gateway
     {
         /**
          * Class constructor
@@ -135,7 +135,7 @@ function helcim_init_gateway_class()
                 'products'
             );
             include_once(plugin_dir_path(__FILE__) . 'admin/class-helcim-gateway-settings.php');
-            WC_Helcim_Gateway_Settings::init_form_fields($this);
+            Tanismo_Helcim_Gateway_Settings::init_form_fields($this);
             $this->init_form_fields();
             $this->init_settings();
             $this->title = $this->get_option('title');
