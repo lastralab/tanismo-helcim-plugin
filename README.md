@@ -57,7 +57,6 @@ Checkout
 
 
 Helcim Payment Page
-![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/99ca9f74-cc83-4a70-ad22-df162eb871ff)
 ![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/e0b121bf-b39f-4586-b016-e1833b625c53)
 
 Admin settings
