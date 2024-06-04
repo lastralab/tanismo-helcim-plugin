@@ -42,9 +42,13 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 
 ## Frequently Asked Questions
 
-### Does this plugin support refunds?
+## Does this plugin support refunds?
 
 Yes, you can process refunds for orders paid with the Helcim Payment Gateway through the Helcim Platform.
+
+## How to configure Helcim Payment Page?
+
+Here's [a guide](Guides/Helcim_Payment_Page.md) on how to configure it.
 
 ## Changelog
 
