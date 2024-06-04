@@ -15,10 +15,9 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 
 ## Pre-requisites
 
-1. Helcim Terminal is already configured on your Helcim account
-2. Helcim API Access is already configured
-3. Helcim js configurations are already configured
-4. Helcim Payment Page is already configured. Here's [a guide](Guides/Helcim_Payment_Page.md) on how to configure it.
+1. Helcim Terminal is already configured on your Helcim account. Contact Helcim to set that up and make sure it can process payments.
+2. Helcim API Access and Helcim.js already configured. Here's [a guide](Guides/Helcim_API_Access.md) on how to configure both
+3. Helcim Payment Page is already configured. Here's [a guide](Guides/Helcim_Payment_Page.md) on how to configure it
 
 ## Installation
 
