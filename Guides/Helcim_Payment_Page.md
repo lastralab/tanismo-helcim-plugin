@@ -10,4 +10,4 @@
 6. Go to Field Settings and check the following boxes: ![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/dd0d0810-ff94-44c1-9c72-623ea9911ba2)
 7. Go to Billing Information and check the following boxes: ![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/b6700d65-42e8-4e84-9f2a-ed45d2b742c2)
 8. Click Save
-
+9. Copy the token listed on your Helcim Payment Pages Dashboard, you'll need it for the plugin configuration on WooCommerce: ![image](https://github.com/lastralab/tanismo-helcim-plugin/assets/22894897/ae50351a-191c-42ef-9ee1-78af0145bfcb)
