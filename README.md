@@ -13,6 +13,13 @@
 
 This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing customers to be redirected to the Helcim Payment Terminal for secure payment processing. This plugin will allow you to apply the 3% convenience fee on payments with credit card (currently not supported by the [Helcim official plugin for WooCommerce](https://wordpress.org/plugins/helcim-commerce-for-woocommerce/)).
 
+## Pre-requisites
+
+1. Helcim Terminal is already configured on your Helcim account
+2. Helcim API Access is already configured
+3. Helcim js configurations are already configured
+4. Helcim Payment Page is already configured. Here's [a guide](Guides/Helcim_Payment_Page.md) on how to configure it.
+
 ## Installation
 
 1. Upload the `tanismo-helcim` folder to the `/wp-content/plugins/` directory.
@@ -42,13 +49,9 @@ This plugin integrates the Helcim Payment Gateway with WooCommerce, allowing cus
 
 ## Frequently Asked Questions
 
-## Does this plugin support refunds?
+### Does this plugin support refunds?
 
 Yes, you can process refunds for orders paid with the Helcim Payment Gateway through the Helcim Platform.
-
-## How to configure Helcim Payment Page?
-
-Here's [a guide](Guides/Helcim_Payment_Page.md) on how to configure it.
 
 ## Changelog
 
